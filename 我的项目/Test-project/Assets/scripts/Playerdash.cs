@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using UnityEngine;
 public class PlayerDash : MonoBehaviour
 {
@@ -25,6 +26,7 @@ public class PlayerDash : MonoBehaviour
     private PlayerJump jump;
     private Playerdeath death;
     public bool IsDashing => dashTimer > 0f;
+    private SoundServer SoundServer;
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
@@ -32,6 +34,7 @@ public class PlayerDash : MonoBehaviour
         defaultGravityScale = body.gravityScale;
         jump = GetComponent<PlayerJump>();
         death = GetComponent<Playerdeath>();
+        SoundServer = GameObject.Find("SoundServer").GetComponent<SoundServer>();
     }
     private void Update()
     {
@@ -62,6 +65,7 @@ public class PlayerDash : MonoBehaviour
             cooldownTimer = dashCooldown + dashDuration;
             dashCount++;
             ghostTimer = 0f;
+            SoundServer.ApplySoundCallOneShot(transform.position, "Sounds/Player Dash");
             if (dashCount == 1) dashcolor = ghostColor1;
             else dashcolor = ghostColor2;
         }
