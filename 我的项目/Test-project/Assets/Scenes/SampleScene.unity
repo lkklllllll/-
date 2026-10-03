@@ -359,6 +359,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u5F00\u59CB\u754C\u9762"
       objectReference: {fileID: 0}
+    - target: {fileID: 7014851520195622290, guid: b22dca95a2bda1d4086a23f2d4a0ea27, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7502279262771198101, guid: b22dca95a2bda1d4086a23f2d4a0ea27, type: 3}
       propertyPath: m_ScreenMatchMode
       value: 0

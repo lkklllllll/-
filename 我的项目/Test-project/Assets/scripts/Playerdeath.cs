@@ -7,7 +7,7 @@ public class Playerdeath : MonoBehaviour
     private Rigidbody2D body;
     private BoxCollider2D box;
     private float defaultGravityScale;
-    private GameObject SpawnPoint;
+    private Vector2 spawnPosition;
     private SoundServer SoundServe;
     private Animator animator;
     public bool IsDead { get; private set; }
@@ -16,7 +16,15 @@ public class Playerdeath : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         box=GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
-        SpawnPoint = GameObject.Find("SpawnPoint");
+        GameObject spawnPoint = GameObject.Find("SpawnPoint");
+        if (spawnPoint != null)
+        {
+            spawnPosition = spawnPoint.transform.position;
+        }
+        else
+        {
+            spawnPosition = transform.position;
+        }
         SoundServe = GameObject.Find("SoundServer").GetComponent<SoundServer>();
         defaultGravityScale=body.gravityScale;
     }
@@ -38,11 +46,15 @@ public class Playerdeath : MonoBehaviour
         animator.SetFloat("speed", 0f);
         box.enabled = false;
         yield return new WaitForSecondsRealtime(1);
-        body.position = SpawnPoint.transform.position;
+        body.position = spawnPosition;
         body.velocity = Vector2.zero;
         animator.SetBool("Death", false);
         IsDead = false;
         box.enabled = true;
     }
 
+    public void SetSpawnPoint(Vector2 position)
+    {
+        spawnPosition = position;
+    }
 }
