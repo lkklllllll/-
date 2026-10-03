@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b2fd7055df9d28d4e9e51ad10766889f
+guid: 470546c9245990048a3464450d2f7211
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,8 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: PortalnautsDefau
   fontNames:
-  - PortalnautsDefau
+  - STXinwei
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
