@@ -27,6 +27,7 @@ public class Playerdeath : MonoBehaviour
         }
         SoundServe = GameObject.Find("SoundServer").GetComponent<SoundServer>();
         defaultGravityScale=body.gravityScale;
+        body.position = spawnPosition;
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -46,9 +47,9 @@ public class Playerdeath : MonoBehaviour
         animator.SetFloat("speed", 0f);
         box.enabled = false;
         yield return new WaitForSecondsRealtime(1);
+        animator.SetBool("Death", false);
         body.position = spawnPosition;
         body.velocity = Vector2.zero;
-        animator.SetBool("Death", false);
         IsDead = false;
         box.enabled = true;
     }
