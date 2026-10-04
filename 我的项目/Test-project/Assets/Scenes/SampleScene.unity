@@ -236,6 +236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   idle_sound_calls_pool_size: 16
   idle_sound_calls_pool: []
+  BGMState: 1
 --- !u!1001 &1829824418
 PrefabInstance:
   m_ObjectHideFlags: 0

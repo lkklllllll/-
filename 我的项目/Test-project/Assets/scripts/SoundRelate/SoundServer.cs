@@ -2,10 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum BGMType { NULL, TEST, START_SCOPE }
+
 public class SoundServer : MonoBehaviour
 {
     public int idle_sound_calls_pool_size = 16;
     public SoundCallComponent[] idle_sound_calls_pool;
+
+    private Dictionary<BGMType, string> BGMTypeToPathMap = new Dictionary<BGMType, string>();
+
+    public BGMType BGMState = BGMType.NULL;
+
+    private BGMType BGMStateChaser = BGMType.NULL;
+
+    private SoundCallComponent BGMPlayer = null;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,12 +29,55 @@ public class SoundServer : MonoBehaviour
             soundCallComponent.server = this;
             idle_sound_calls_pool[i] = soundCallComponent;
         }
+        BGMStateChaser = BGMType.NULL;
+        BGMTypeToPathMap.Add(BGMType.TEST, "Musics/Test");
+    }
+
+    public void BGMStateChase()
+    {
+        if (BGMState != BGMStateChaser)
+        {
+            BGMPlayerRelease();
+            GameObject player = GameObject.Find("Player");
+            if (player == null)
+            {
+                player = this.gameObject;
+            }
+            
+            BGMPlayer = StartSoundCallLoopTraceGo(player, BGMTypeToPathMap[BGMState]);
+            BGMStateChaser = BGMState;
+        }
+    }
+
+    public void BGMPlayerRelease()
+    {
+        if (BGMPlayer != null)
+        {
+            BGMPlayer.StopPlay();
+            BGMPlayer = null;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (BGMState != BGMType.NULL)
+        {
+            if (BGMTypeToPathMap[BGMState] == "")
+            {
+                BGMPlayerRelease();
+            }
+            else
+            {
+                BGMStateChase();
+            }
+        }
+        else
+        {
+            BGMPlayerRelease();
+            BGMStateChaser = BGMState;
+        }
+
     }
 
     public int GetIdleSoundCallCount()

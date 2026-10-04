@@ -23,7 +23,8 @@ public class SoundCallComponent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GetAudioSource().isPlaying)
+        AudioSource audio = GetAudioSource();
+        if (audio.isPlaying)
         {
             if (Trace != null)
             {
@@ -32,7 +33,10 @@ public class SoundCallComponent : MonoBehaviour
         }
         else
             {
-                Release();
+                if (!audio.loop)
+                {
+                   Release();
+                }
             }
     }
 
@@ -110,5 +114,12 @@ public class SoundCallComponent : MonoBehaviour
         AudioSource audio = GetAudioSource();
         gameObject.SetActive (true);
         audio.Play();
+    }
+
+    public void StopPlay()
+    {
+        AudioSource audio = GetAudioSource();
+        gameObject.SetActive(false);
+        audio.Stop();
     }
 }
