@@ -16,7 +16,7 @@ public class PlayerDash : MonoBehaviour
     [SerializeField] private Color ghostColor2;
     [Header("内部变量")]
     private float ghostTimer;
-    private float dashTimer;
+    public float dashTimer;
     private float cooldownTimer;
     private Rigidbody2D body;
     private SpriteRenderer spriteRenderer;

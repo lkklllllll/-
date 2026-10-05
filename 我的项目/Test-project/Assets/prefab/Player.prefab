@@ -34,7 +34,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.27, y: 3.66, z: -1}
-  m_LocalScale: {x: 0.82, y: 0.82, z: 0.82}
+  m_LocalScale: {x: 0.78, y: 0.78, z: 0.78}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -150,7 +150,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.6875}
+  m_Offset: {x: 0, y: 0.59801114}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -161,7 +161,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.19, y: 1.375}
+  m_Size: {x: 1.19, y: 1.1960223}
   m_EdgeRadius: 0
 --- !u!95 &244848352633163553
 Animator:
@@ -229,14 +229,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dashSpeed: 15
   dashDuration: 0.2
-  dashCooldown: 0.2
-  maxDashCount: 1
+  dashCooldown: 0.05
+  maxDashCount: 2
   enableDashGhost: 1
   ghostInterval: 0.05
   ghostLifetime: 0.3
   ghostDepthOffset: 0.1
   ghostColor1: {r: 1, g: 0.9048184, b: 0, a: 1}
   ghostColor2: {r: 1, g: 0.20851424, b: 0, a: 1}
+  dashTimer: 0
   dashCount: 0
 --- !u!114 &271206297027054455
 MonoBehaviour:

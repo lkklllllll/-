@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|d:\\unity\\project\\team\\\u6211\u7684\u9879\u76EE\\test-project\\assets\\scripts\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|d:\\unity\\project\\team\\\u6211\u7684\u9879\u76EE\\test-project\\assets\\scripts\\playerdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|d:\\unity\\project\\team\\\u6211\u7684\u9879\u76EE\\test-project\\assets\\scripts\\collectionsstars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectionsstars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|d:\\unity\\project\\team\\\u6211\u7684\u9879\u76EE\\test-project\\assets\\scripts\\soundrelate\\soundcallcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundrelate\\soundcallcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Library\\PackageCache\\com.unity.textmeshpro@3.0.7\\Scripts\\Runtime\\TextMeshPro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.textmeshpro@3.0.7\\Scripts\\Runtime\\TextMeshPro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|d:\\unity\\project\\team\\\u6211\u7684\u9879\u76EE\\test-project\\assets\\scripts\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\assets\\scripts\\playerdeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerdeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Checkpoint.cs",
-              "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Checkpoint.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Checkpoint.cs",
-              "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Checkpoint.cs",
-              "RelativeToolTip": "Assets\\scripts\\Checkpoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBUAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Portal.cs",
+              "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Portal.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Portal.cs",
+              "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Portal.cs",
+              "RelativeToolTip": "Assets\\scripts\\Portal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-03T06:42:21.691Z",
+              "WhenOpened": "2026-10-05T08:21:27.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Playerdash.cs",
+              "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Playerdash.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Playerdash.cs",
+              "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Playerdash.cs",
+              "RelativeToolTip": "Assets\\scripts\\Playerdash.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T08:14:22.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "collectionsstars.cs",
+              "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\collectionsstars.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\collectionsstars.cs",
+              "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\collectionsstars.cs",
+              "RelativeToolTip": "Assets\\scripts\\collectionsstars.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwBsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T08:07:27.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TextMeshPro.cs",
               "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Library\\PackageCache\\com.unity.textmeshpro@3.0.7\\Scripts\\Runtime\\TextMeshPro.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.textmeshpro@3.0.7\\Scripts\\Runtime\\TextMeshPro.cs",
               "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Library\\PackageCache\\com.unity.textmeshpro@3.0.7\\Scripts\\Runtime\\TextMeshPro.cs",
               "RelativeToolTip": "Library\\PackageCache\\com.unity.textmeshpro@3.0.7\\Scripts\\Runtime\\TextMeshPro.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAcwHgAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAHgAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-03T11:22:14.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-03T11:22:14.958Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CameraFollow.cs",
-              "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\CameraFollow.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\CameraFollow.cs",
-              "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\CameraFollow.cs",
-              "RelativeToolTip": "Assets\\scripts\\CameraFollow.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAADwvygAAAAWAAAAAAAAAA==",
+              "Title": "SoundCallComponent.cs",
+              "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\SoundRelate\\SoundCallComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\SoundRelate\\SoundCallComponent.cs",
+              "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\SoundRelate\\SoundCallComponent.cs",
+              "RelativeToolTip": "Assets\\scripts\\SoundRelate\\SoundCallComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-03T04:48:00.975Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Playerdeath.cs",
-              "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Playerdeath.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Playerdeath.cs",
-              "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Playerdeath.cs",
-              "RelativeToolTip": "Assets\\scripts\\Playerdeath.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAkwDkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-03T06:41:08.824Z"
+              "WhenOpened": "2026-10-04T09:34:37.597Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -25,7 +25,7 @@ public class collectionsstars : MonoBehaviour
     {
         spriteRenderer.enabled = false;
         triggerCollider.enabled = false;
-        yield return new WaitForSecondsRealtime(3);
+        yield return new WaitForSecondsRealtime(2);
         spriteRenderer.enabled = true;
         triggerCollider.enabled = true;
     }
