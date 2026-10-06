@@ -6,10 +6,12 @@ public class collectionsstars : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
     private Collider2D triggerCollider;
+    private SoundServer soundServer;
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         triggerCollider = GetComponent<Collider2D>();
+        soundServer = GameObject.Find("SoundServer").GetComponent<SoundServer>();
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -18,6 +20,7 @@ public class collectionsstars : MonoBehaviour
         {
             PlayerDash dash = other.GetComponent<PlayerDash>();
             dash.RefreshDash();
+            soundServer.ApplySoundCallOneShot(transform.position, "Sounds/Pickup Gem");
             StartCoroutine(Refresh());
         }
     }

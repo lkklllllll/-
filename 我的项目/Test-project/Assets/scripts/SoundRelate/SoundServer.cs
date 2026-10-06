@@ -17,9 +17,13 @@ public class SoundServer : MonoBehaviour
 
     private SoundCallComponent BGMPlayer = null;
 
+    GameObject spikemap;
+
     // Start is called before the first frame update
     void Start()
     {
+        spikemap = GameObject.Find("Spikemap");
+
         idle_sound_calls_pool = new SoundCallComponent[idle_sound_calls_pool_size];
         for (int i = 0;i < idle_sound_calls_pool.Length;i++)
         {
@@ -77,7 +81,11 @@ public class SoundServer : MonoBehaviour
             BGMPlayerRelease();
             BGMStateChaser = BGMState;
         }
-
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            
+            spikemap.SetActive(!spikemap.activeSelf);
+        }
     }
 
     public int GetIdleSoundCallCount()
