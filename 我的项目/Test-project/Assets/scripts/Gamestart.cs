@@ -6,6 +6,8 @@ public class Gamestart : MonoBehaviour
 {
     private GameObject Player;
     private GameObject GameHud;
+
+    private SoundServer soundServer;
     private void Awake()
     {
         Player= GameObject.Find("Player");
@@ -15,6 +17,7 @@ public class Gamestart : MonoBehaviour
         {
             GameHud.SetActive(false);
         }
+        soundServer = GameObject.Find("SoundServer").GetComponent<SoundServer>();
     }
     public void StartGame()
     {
@@ -24,5 +27,6 @@ public class Gamestart : MonoBehaviour
         {
             GameHud.SetActive(true);
         }
+        soundServer.BGMState = BGMType.MAIN;
     }
 }

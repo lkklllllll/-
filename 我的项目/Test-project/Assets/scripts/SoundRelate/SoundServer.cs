@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum BGMType { NULL, TEST, START_SCOPE }
+public enum BGMType { NULL, TEST, START_SCOPE, MAIN}
 
 public class SoundServer : MonoBehaviour
 {
@@ -35,6 +35,7 @@ public class SoundServer : MonoBehaviour
         }
         BGMStateChaser = BGMType.NULL;
         BGMTypeToPathMap.Add(BGMType.TEST, "Musics/Test");
+        BGMTypeToPathMap.Add(BGMType.MAIN, "Musics/Main Level");
     }
 
     public void BGMStateChase()
@@ -58,6 +59,7 @@ public class SoundServer : MonoBehaviour
         if (BGMPlayer != null)
         {
             BGMPlayer.StopPlay();
+            BGMPlayer.Release();
             BGMPlayer = null;
         }
     }

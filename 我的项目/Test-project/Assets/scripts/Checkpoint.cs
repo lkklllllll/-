@@ -11,6 +11,8 @@ public class Checkpoint : MonoBehaviour
     private float raisedY;
     private bool activated;
 
+    private SoundServer soundServer;
+
     private void Awake()
     {
         if (flag == null)
@@ -20,6 +22,7 @@ public class Checkpoint : MonoBehaviour
 
         loweredY = flag.localPosition.y;
         raisedY = loweredY + raisedHeight;
+        soundServer = GameObject.Find("SoundServer").GetComponent<SoundServer>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -48,6 +51,7 @@ public class Checkpoint : MonoBehaviour
 
         if (flag != null)
         {
+            soundServer.ApplySoundCallOneShot(transform.position, "Sounds/Reach CheckPoint");
             StartCoroutine(RaiseFlag());
         }
     }
