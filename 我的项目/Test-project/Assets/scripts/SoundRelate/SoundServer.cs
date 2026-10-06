@@ -49,7 +49,7 @@ public class SoundServer : MonoBehaviour
                 player = this.gameObject;
             }
             
-            BGMPlayer = StartSoundCallLoopTraceGo(player, BGMTypeToPathMap[BGMState]);
+            BGMPlayer = StartSoundCallLoopTraceGo(player, BGMTypeToPathMap[BGMState], 0.3f);
             BGMStateChaser = BGMState;
         }
     }
