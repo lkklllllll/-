@@ -1,26 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\zlm\\Documents\\GitHub\\-\\\u6211\u7684\u9879\u76EE\\Test-project\\",
+  "WorkspaceRootPath": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|c:\\users\\zlm\\documents\\github\\-\\\u6211\u7684\u9879\u76EE\\test-project\\assets\\scripts\\soundrelate\\soundserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|d:\\unity\\project\\team\\\u6211\u7684\u9879\u76EE\\test-project\\assets\\scripts\\soundrelate\\soundserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundrelate\\soundserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|c:\\users\\zlm\\documents\\github\\-\\\u6211\u7684\u9879\u76EE\\test-project\\assets\\scripts\\soundrelate\\soundcallcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundrelate\\soundcallcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|c:\\users\\zlm\\documents\\github\\-\\\u6211\u7684\u9879\u76EE\\test-project\\assets\\scripts\\gamestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|C:\\Users\\zlm\\Documents\\GitHub\\-\\\u6211\u7684\u9879\u76EE\\Test-project\\assets\\scripts\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|C:\\Users\\zlm\\Documents\\GitHub\\-\\\u6211\u7684\u9879\u76EE\\Test-project\\assets\\scripts\\playerdeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerdeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Gamestart.cs",
-              "DocumentMoniker": "C:\\Users\\zlm\\Documents\\GitHub\\-\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Gamestart.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Gamestart.cs",
-              "ToolTip": "C:\\Users\\zlm\\Documents\\GitHub\\-\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Gamestart.cs",
-              "RelativeToolTip": "Assets\\scripts\\Gamestart.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvx0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T12:34:08.411Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SoundServer.cs",
-              "DocumentMoniker": "C:\\Users\\zlm\\Documents\\GitHub\\-\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\SoundRelate\\SoundServer.cs",
+              "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\SoundRelate\\SoundServer.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\SoundRelate\\SoundServer.cs",
-              "ToolTip": "C:\\Users\\zlm\\Documents\\GitHub\\-\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\SoundRelate\\SoundServer.cs",
+              "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\SoundRelate\\SoundServer.cs",
               "RelativeToolTip": "Assets\\scripts\\SoundRelate\\SoundServer.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAmwD0AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwBMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T12:04:35.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SoundCallComponent.cs",
-              "DocumentMoniker": "C:\\Users\\zlm\\Documents\\GitHub\\-\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\SoundRelate\\SoundCallComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\SoundRelate\\SoundCallComponent.cs",
-              "ToolTip": "C:\\Users\\zlm\\Documents\\GitHub\\-\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\SoundRelate\\SoundCallComponent.cs",
-              "RelativeToolTip": "Assets\\scripts\\SoundRelate\\SoundCallComponent.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T12:04:29.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Playerdeath.cs",
-              "DocumentMoniker": "C:\\Users\\zlm\\Documents\\GitHub\\-\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Playerdeath.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Playerdeath.cs",
-              "ToolTip": "C:\\Users\\zlm\\Documents\\GitHub\\-\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Playerdeath.cs",
-              "RelativeToolTip": "Assets\\scripts\\Playerdeath.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T08:35:18.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Portal.cs",
-              "DocumentMoniker": "C:\\Users\\zlm\\Documents\\GitHub\\-\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Portal.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Portal.cs",
-              "ToolTip": "C:\\Users\\zlm\\Documents\\GitHub\\-\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Portal.cs",
-              "RelativeToolTip": "Assets\\scripts\\Portal.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAxwBsAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T08:21:27.575Z",
+              "WhenOpened": "2026-10-07T22:48:34.787Z",
               "EditorCaption": ""
             }
           ]

@@ -2,7 +2,7 @@
 - Project name: Test-project
 - Unity version: Unity 2022.3.55f1c1
 - Active game object:
-  - Name: 收集物合集
+  - Name: SoundServer
   - Tag: Untagged
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
