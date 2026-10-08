@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 
-public enum BGMType { NULL, TEST, START_SCOPE, MAIN}
+public enum BGMType { NULL, TEST, START_SCOPE, MAIN, END}
 
 public class SoundServer : MonoBehaviour
 {
@@ -36,6 +37,7 @@ public class SoundServer : MonoBehaviour
         BGMStateChaser = BGMType.NULL;
         BGMTypeToPathMap.Add(BGMType.TEST, "Musics/Test");
         BGMTypeToPathMap.Add(BGMType.MAIN, "Musics/Main Level");
+        BGMTypeToPathMap.Add(BGMType.END, "Musics/Level Victory");
     }
 
     public void BGMStateChase()
@@ -62,6 +64,18 @@ public class SoundServer : MonoBehaviour
             BGMPlayer.Release();
             BGMPlayer = null;
         }
+    }
+
+    public void BGMWhenEnd()
+    {
+        BGMState = BGMType.NULL;
+        ApplySoundCallOneShotTraceGo(GameObject.Find("Player"), BGMTypeToPathMap[BGMType.END]);
+        Invoke(nameof(BGMSetTest), 5f);
+    }
+
+    public void BGMSetTest()
+    {
+        BGMState = BGMType.TEST;
     }
 
     // Update is called once per frame
