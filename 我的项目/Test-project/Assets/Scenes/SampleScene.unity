@@ -49862,11 +49862,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &479468583 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 5307292655715969548, guid: b9a1a7d93ff284f47a63547d34488847, type: 3}
-  m_PrefabInstance: {fileID: 94587119}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &733276527
 GameObject:
   m_ObjectHideFlags: 0
@@ -49985,15 +49980,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3562742a38093c447a54f3df216a9aba, type: 2}
-  m_sharedMaterial: {fileID: 6248179091340867267, guid: 3562742a38093c447a54f3df216a9aba, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 102740c7f98b27947ada71640f88ffc5, type: 2}
+  m_sharedMaterial: {fileID: 1595592108228283922, guid: 102740c7f98b27947ada71640f88ffc5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -50053,7 +50048,7 @@ MonoBehaviour:
   _SortingLayerID: 0
   _SortingOrder: 0
   m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 479468583}
+  m_renderer: {fileID: 733276532}
   m_maskType: 0
 --- !u!23 &733276532
 MeshRenderer:
@@ -50075,7 +50070,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6248179091340867267, guid: 3562742a38093c447a54f3df216a9aba, type: 2}
+  - {fileID: 1595592108228283922, guid: 102740c7f98b27947ada71640f88ffc5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -50295,7 +50290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7014851520195622290, guid: b22dca95a2bda1d4086a23f2d4a0ea27, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7502279262771198101, guid: b22dca95a2bda1d4086a23f2d4a0ea27, type: 3}
       propertyPath: m_ScreenMatchMode
