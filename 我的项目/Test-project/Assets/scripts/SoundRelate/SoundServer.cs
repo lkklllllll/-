@@ -70,7 +70,7 @@ public class SoundServer : MonoBehaviour
     {
         BGMState = BGMType.NULL;
         ApplySoundCallOneShotTraceGo(GameObject.Find("Player"), BGMTypeToPathMap[BGMType.END]);
-        Invoke(nameof(BGMSetTest), 5f);
+        
     }
 
     public void BGMSetTest()
