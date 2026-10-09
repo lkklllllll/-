@@ -3,7 +3,39 @@
   "WorkspaceRootPath": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|d:\\unity\\project\\team\\\u6211\u7684\u9879\u76EE\\test-project\\assets\\scripts\\soundrelate\\soundserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|d:\\unity\\project\\team\\\u6211\u7684\u9879\u76EE\\test-project\\assets\\scripts\\finalpointbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\finalpointbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|d:\\unity\\project\\team\\\u6211\u7684\u9879\u76EE\\test-project\\assets\\scripts\\playerdeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerdeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|d:\\unity\\project\\team\\\u6211\u7684\u9879\u76EE\\test-project\\assets\\scripts\\quitgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quitgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|d:\\unity\\project\\team\\\u6211\u7684\u9879\u76EE\\test-project\\assets\\scripts\\collectionsstars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectionsstars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|d:\\unity\\project\\team\\\u6211\u7684\u9879\u76EE\\test-project\\assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|d:\\unity\\project\\team\\\u6211\u7684\u9879\u76EE\\test-project\\assets\\scripts\\playerjump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerjump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\assets\\scripts\\playerdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|d:\\unity\\project\\team\\\u6211\u7684\u9879\u76EE\\test-project\\assets\\scripts\\dashghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dashghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\assets\\scripts\\soundrelate\\soundserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87C66557-22EC-326B-E574-FC88B189EFE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundrelate\\soundserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,20 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuitGame.cs",
+              "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\QuitGame.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\QuitGame.cs",
+              "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\QuitGame.cs",
+              "RelativeToolTip": "Assets\\scripts\\QuitGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T08:16:45.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Playerdeath.cs",
+              "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Playerdeath.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Playerdeath.cs",
+              "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Playerdeath.cs",
+              "RelativeToolTip": "Assets\\scripts\\Playerdeath.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAmwDoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T08:16:01.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "collectionsstars.cs",
+              "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\collectionsstars.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\collectionsstars.cs",
+              "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\collectionsstars.cs",
+              "RelativeToolTip": "Assets\\scripts\\collectionsstars.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wB4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T08:15:51.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerMove.cs",
+              "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\PlayerMove.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerMove.cs",
+              "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\PlayerMove.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerMove.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T08:15:21.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerJump.cs",
+              "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\PlayerJump.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerJump.cs",
+              "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\PlayerJump.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerJump.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T08:15:16.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DashGhost.cs",
+              "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\DashGhost.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\DashGhost.cs",
+              "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\DashGhost.cs",
+              "RelativeToolTip": "Assets\\scripts\\DashGhost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T08:14:13.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FinalPointBehavior.cs",
+              "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\FinalPointBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\FinalPointBehavior.cs",
+              "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\FinalPointBehavior.cs",
+              "RelativeToolTip": "Assets\\scripts\\FinalPointBehavior.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwCAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T08:11:54.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Playerdash.cs",
+              "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Playerdash.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Playerdash.cs",
+              "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\Playerdash.cs",
+              "RelativeToolTip": "Assets\\scripts\\Playerdash.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwGwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T08:11:09.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "SoundServer.cs",
               "DocumentMoniker": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\SoundRelate\\SoundServer.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\SoundRelate\\SoundServer.cs",
               "ToolTip": "D:\\Unity\\project\\Team\\\u6211\u7684\u9879\u76EE\\Test-project\\Assets\\scripts\\SoundRelate\\SoundServer.cs",
               "RelativeToolTip": "Assets\\scripts\\SoundRelate\\SoundServer.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAkwBMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwCQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T22:48:34.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-07T22:48:34.787Z"
             }
           ]
         }

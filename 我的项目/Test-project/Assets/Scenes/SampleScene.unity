@@ -49868,6 +49868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 733276528}
   - component: {fileID: 733276529}
+  - component: {fileID: 733276530}
   m_Layer: 3
   m_Name: FinalPoint
   m_TagString: Untagged
@@ -49922,7 +49923,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.5070114, y: -2.567398}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -49933,8 +49934,20 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 15.96, y: 6.4}
+  m_Size: {x: 0.81791687, y: 0.74617004}
   m_EdgeRadius: 0
+--- !u!114 &733276530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733276527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a63a8e3df94b0cb4daa5af759bedeae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &863043029
 GameObject:
   m_ObjectHideFlags: 0

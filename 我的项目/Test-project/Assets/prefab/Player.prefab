@@ -230,7 +230,7 @@ MonoBehaviour:
   dashSpeed: 15
   dashDuration: 0.2
   dashCooldown: 0.05
-  maxDashCount: 2
+  maxDashCount: 1
   enableDashGhost: 1
   ghostInterval: 0.05
   ghostLifetime: 0.3
